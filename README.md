@@ -1,3 +1,5 @@
+click on Project located on the top right corner in the R studio > New project > New directory > R package > name the package (I gave the name as Predicheart to my package. You can give a name based on your choice) > click on create project.
+
 # Predicheart
 #' @import ggplot2
 #' @import rio
@@ -30,3 +32,9 @@ Pred <- function(x) {
   # Mean
   mean(heart$chol)
 }
+
+
+From the histogram , we can predict that the risk of heart diseases with age from 30 - 60 and then started decreasing. From the boxplot we can examine that for more people the chol level ranges in between 200 - 300. but there are some variation with 3-4 people. I think there might be some reasons for that. And in the ggplot, I compared chol and tresbps values by target. we determined  By using the function Pred () we can create boxplot, ggplot, histogram and mean for the data. Creating a predictive model for heart disease can be a valuable tool in predicting the heart disease. By following the following steps , you can create your own package in the R studio and make it available to others.
+
+
+You can check it out the package creation in detail in my blog- https://likki1499.blogspot.com/2023/04/prediction-of-heart-disease.html
