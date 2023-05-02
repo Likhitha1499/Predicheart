@@ -1,0 +1,14 @@
+Package: Predicheart
+Type: Package
+Title: Prediction of Heart
+Version: 0.1.0
+Author: Likhitha Sree Pingali
+Maintainer: <Likhithasreepingali@gmail.com> 
+Description: It predicts whether the person has heart disease or not based on a set of input variables
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: ggplot2, randomForest, stats, predict, magrittr, dplyr
+
+
